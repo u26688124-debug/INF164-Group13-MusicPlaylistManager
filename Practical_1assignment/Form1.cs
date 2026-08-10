@@ -46,7 +46,8 @@ namespace Assignment_1
 
                 if (loginSuccessful)
                 {
-                    frmHomePage homepage = new frmHomePage();
+                    frmHomePage homepage = new frmHomePage(username);
+                    
                     homepage.Show();
                     this.Hide();
                 }
