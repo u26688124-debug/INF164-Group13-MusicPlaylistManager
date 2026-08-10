@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Practical_1assignment/.vs/Practical_1assignment.slnx
+/Practical_1assignment/obj/Debug
