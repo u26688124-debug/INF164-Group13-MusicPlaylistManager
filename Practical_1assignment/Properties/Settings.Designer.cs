@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Practical_1assignment.Properties
+namespace Deliverable_1b.Properties
 {
 
 
