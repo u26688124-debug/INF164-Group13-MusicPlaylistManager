@@ -32,7 +32,7 @@ namespace Assignment_1
                 }
 
                 StreamReader contentFile;
-                contentFile = new StreamReader("File with stuff.txt");
+                contentFile = new StreamReader("UserManager.txt");
                 string lines = contentFile.ReadLine();
                 bool loginSuccessful = false;
 
