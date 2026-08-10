@@ -10,9 +10,9 @@ namespace Person6
         //NB: FOR THIS CODE TO WORK, THE PERSON RESPONSIBLE FOR RETRIEVING THE FILES MUST PROVIDE THE CORRECT FILE PATHS FOR USERS.TXT, PLAYLISTS.TXT, AND SONGS.TXT.
         // File paths pointing to your text files
         //CHANGE THE FILE PATHS BELOW TO MATCH WHAT THE PERSON RESPONSIBLE FOR RETRIEVING THE FILES PROVIDES
-        private string usersPath = @"C:\Users\Happymore Motsi\Downloads\Users.txt";//this will come from the person responsible for retrieving the users file
-        private string playlistsPath = @"C:\Users\Happymore Motsi\Downloads\Playlists.txt"; //this will come from the person responsible for retrieving the playlists file
-        private string songsPath = @"C:\Users\Happymore Motsi\Downloads\Songs.txt"; //this will come from the person responsible for retrieving the songs file
+        string usersPath = @"C:\Users\Happymore Motsi\Downloads\Users.txt";//this will come from the person responsible for retrieving the users file
+        string playlistsPath = @"C:\Users\Happymore Motsi\Downloads\Playlists.txt"; //this will come from the person responsible for retrieving the playlists file
+        string songsPath = @"C:\Users\Happymore Motsi\Downloads\Songs.txt"; //this will come from the person responsible for retrieving the songs file
 
 
         // 1. USERS FILE MANAGEMENT (Users.txt)
