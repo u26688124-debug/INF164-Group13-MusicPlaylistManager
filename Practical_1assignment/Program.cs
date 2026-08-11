@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Practical_1assignment
+namespace Deliverable_1b
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Practical_1assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHomePage("Jack"));
+            Application.Run(new Registerfrm());
         }
     }
 }
