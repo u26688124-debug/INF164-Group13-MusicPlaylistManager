@@ -13,12 +13,12 @@ namespace Deliverable_1b
 {
     public partial class Registerfrm : Form
     {
-        private string filePath = "UserManager.txt";
+        private string filePath = "Users.txt";
 
         public Registerfrm()
         {
             InitializeComponent();
-            UserManager.InitializeFile();
+            InitializeFile();
         }
 
         private void Registerfrm_Load(object sender, EventArgs e)
@@ -49,13 +49,13 @@ namespace Deliverable_1b
 
                 try
                 {
-                    using (StreamReader reader = new StreamReader(filePath))
+                    using (StreamReader contentFile = new StreamReader(filePath))
                     {
                         string line;
 
-                        while ((line = reader.ReadLine()) != null)
+                        while ((line = contentFile.ReadLine()) != null)
                         {
-                            if (line == "")
+                            if (!string.IsNullOrEmpty(line))
                             {
                                 string[] userCredentials = line.Split(',');
 
@@ -79,9 +79,9 @@ namespace Deliverable_1b
             {
                 try
                 {
-                    using (StreamWriter writer = new StreamWriter(filePath, true))
+                    using (StreamWriter userFile = new StreamWriter(filePath,true))
                     {
-                        writer.WriteLine($"{username},{password}");
+                        userFile.WriteLine(username + ","+password);
                     }
                 }
                 catch (Exception writing)
@@ -89,17 +89,17 @@ namespace Deliverable_1b
                     MessageBox.Show(" There has been an error with writing to the user file"+ writing.Message);
                 }
             }
-        
 
 
-
-            private void BackToLogin()
+        private void BackToLogin()
         {
-            frmLOGIN loginform=new frmLOGIN();
+            frmLOGIN loginform = new frmLOGIN();
             loginform.Show();
             this.Close();
         }
-        
+
+
+
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
@@ -112,7 +112,7 @@ namespace Deliverable_1b
                 MessageBox.Show("Please make sure that all fields are filled in ");
                 return;
 
-                BackToLogin();
+                
             }
 
             if (password != confirmPassword)
@@ -123,16 +123,16 @@ namespace Deliverable_1b
                 return;
             }
 
-            if (UserManager.DoesUserExist(username))
+            if (DoesUserExist(username))
             {
                 MessageBox.Show("This username already exists. Try a different one");
                 return;
             }
-            UserManager.SaveUser(username, password);
+           SaveUser(username, password);
 
             MessageBox.Show("Your account has been created");
 
-            
+            BackToLogin();
         }
 
         private void btnBacktoLogin_Click(object sender, EventArgs e)
