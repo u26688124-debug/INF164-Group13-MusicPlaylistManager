@@ -1,0 +1,11 @@
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\bin\Debug\Statistics_and_Testing.exe.config
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\bin\Debug\Statistics_and_Testing.exe
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\bin\Debug\Statistics_and_Testing.pdb
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.csproj.AssemblyReference.cache
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.frmLibrary.resources
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.frmStats.resources
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.Properties.Resources.resources
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.csproj.GenerateResource.cache
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.csproj.CoreCompileInputs.cache
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.exe
+C:\Users\karab\source\repos\INF164-Group13-MusicPlaylistManager\obj\Debug\Statistics_and_Testing.pdb
