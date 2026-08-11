@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{928B03CB-F9D1-4660-8572-D761C009A65D}|Deliverable 1b.csproj|c:\\users\\rebam\\source\\repos\\deliverable 1\\practical_1assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{928B03CB-F9D1-4660-8572-D761C009A65D}|Deliverable 1b.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{928B03CB-F9D1-4660-8572-D761C009A65D}|Deliverable 1b.csproj|c:\\users\\rebam\\source\\repos\\deliverable 1\\practical_1assignment\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{928B03CB-F9D1-4660-8572-D761C009A65D}|Deliverable 1b.csproj|solutionrelative:users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.txt",
+              "DocumentMoniker": "C:\\Users\\rebam\\source\\repos\\Deliverable 1\\Practical_1assignment\\Users.txt",
+              "RelativeDocumentMoniker": "Users.txt",
+              "ToolTip": "C:\\Users\\rebam\\source\\repos\\Deliverable 1\\Practical_1assignment\\Users.txt",
+              "RelativeToolTip": "Users.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-11T17:32:15.694Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\rebam\\source\\repos\\Deliverable 1\\Practical_1assignment\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwIYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-11T09:37:13.754Z",
               "EditorCaption": ""
