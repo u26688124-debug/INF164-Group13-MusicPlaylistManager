@@ -20,7 +20,7 @@ namespace Practical_1assignment
             this.username = username;
             lblWelcome.Text = "Welcome Back, " + username + "!";
             LoadPlaylists();
-            
+          
             
         }
        
@@ -46,6 +46,7 @@ namespace Practical_1assignment
             catch (Exception IO)
             {
                 MessageBox.Show("Could not load playlists", "Error");
+            
             }
         }
 
@@ -58,8 +59,8 @@ namespace Practical_1assignment
             else
             {
                 string selectedPlaylist = lstPlaylists.SelectedItem.ToString();
-                // frmPlaylist playlistForm = new frmPlaylist();
-                // playlistForm.Show();
+                //frmPlaylist playlistForm = new frmPlaylist(selectedPlaylist);
+                //playlistForm.Show();
                 this.Hide();
             }
         }
@@ -74,7 +75,7 @@ namespace Practical_1assignment
             {
                 try
                 {
-                    string playlistID = "P" + (lstPlaylists.Items.Count + 1).ToString() + "000";
+                    string playlistID = "P00" + (lstPlaylists.Items.Count + 2).ToString();
                     StreamWriter writer = new StreamWriter("Playlists.txt", true);
                     writer.WriteLine(playlistID + "," + txtPlaylistName.Text + "," + username);
                     writer.Close();
@@ -84,6 +85,7 @@ namespace Practical_1assignment
                 catch (Exception IO)
                 {
                     MessageBox.Show("Could not save playlist", "Error");
+                    
                 }
             }
         }

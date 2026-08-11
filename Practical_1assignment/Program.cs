@@ -16,7 +16,7 @@ namespace Practical_1assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHomePage());
+            Application.Run(new frmHomePage("Jack"));
         }
     }
 }
